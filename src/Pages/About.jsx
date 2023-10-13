@@ -7,7 +7,7 @@ import Box1 from "../images/about/icon1.png";
 import Box2 from "../images/about/icon2.png";
 import Box3 from "../images/about/icon3.png";
 
-function About() {
+function About()  {
   return (
     <>
       <section className="about-page">
