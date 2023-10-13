@@ -13,19 +13,20 @@ function Contact() {
             <div className="contact-div__text">
               <h2>Need additional information?</h2>
               <p>
-                A multifaceted professional skilled in multiple fields of
-                research, development as well as a learning specialist. Over 15
-                years of experience.
+              What truly stood out was their dedication to customer satisfaction.
+               We had a small hiccup during our rental period, 
+              and the customer support team was incredibly responsive and
+               went above and beyond to resolve the issue promptly.
               </p>
               <a href="/">
-                <IconPhone /> &nbsp; (123) 456-7869
+                <IconPhone /> &nbsp; (+91) 2513 2546 25
               </a>
               <a href="/">
-                <IconMail /> &nbsp; carrental@carmail.com
+                <IconMail /> &nbsp; support@wheel4rent.com
               </a>
               <a href="/">
                 <IconLocation />
-                &nbsp; Belgrade, Serbia
+                &nbsp; Mumbai,India
               </a>
             </div>
             <div className="contact-div__form">
@@ -33,7 +34,7 @@ function Contact() {
                 <label>
                   Full Name <b>*</b>
                 </label>
-                <input type="text" placeholder='E.g: "Joe Shmoe"'></input>
+                <input type="text" placeholder='E.g: "Aman Kumar"'></input>
 
                 <label>
                   Email <b>*</b>
@@ -60,7 +61,7 @@ function Contact() {
               <h2>Book a car by getting in touch with us</h2>
               <span>
                 <IconPhone width={40} height={40} />
-                <h3>(123) 456-7869</h3>
+                <h3>(+91) 2513 2546 25</h3>
               </span>
             </div>
           </div>

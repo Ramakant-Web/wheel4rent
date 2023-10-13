@@ -16,17 +16,17 @@ function Footer() {
               </li>
               <li>
                 <a href="tel:123456789">
-                  <IconPhoneCall /> &nbsp; (123) -456-789
+                  <IconPhoneCall /> &nbsp; (+91) 2513 2546 25
                 </a>
               </li>
 
               <li>
                 <a
                   href="mailto: 
-                carrental@gmail.com"
+                xyx@xyz.com"
                 >
                   <IconMail />
-                  &nbsp; carrental@gmail.com
+                  &nbsp; support@wheel4rent.com
                 </a>
               </li>
 
@@ -35,9 +35,9 @@ function Footer() {
                   style={{ fontSize: "14px" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://xpeedstudio.com/"
+                  href="#home"
                 >
-                  Design by XpeedStudio
+                  Design by RSB
                 </a>
               </li>
             </ul>
@@ -45,7 +45,7 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="#home">New York</a>
+                <a href="#home">Mumbai</a>
               </li>
               <li>
                 <a href="#home">Careers</a>
@@ -63,7 +63,7 @@ function Footer() {
 
             <ul className="footer-content__2">
               <li>Working Hours</li>
-              <li>Mon - Fri: 9:00AM - 9:00PM</li>
+              <li>Mon - Fri: 9:00AM - 10:00PM</li>
               <li>Sat: 9:00AM - 19:00PM</li>
               <li>Sun: Closed</li>
             </ul>

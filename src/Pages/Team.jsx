@@ -10,12 +10,12 @@ import Person6 from "../images/team/6.png";
 
 function Team() {
   const teamPpl = [
-    { img: Person1, name: "Luke Miller", job: "Salesman" },
-    { img: Person2, name: "Michael Diaz", job: "Business Owner" },
-    { img: Person3, name: "Briana Ross", job: "Photographer" },
-    { img: Person4, name: "Lauren Rivera", job: "Car Detailist" },
-    { img: Person5, name: "Martin Rizz", job: "Mechanic" },
-    { img: Person6, name: "Caitlyn Hunt", job: "Menager" },
+    { img: Person1, name: "Aman Rawat", job: "Salesman" },
+    { img: Person2, name: "Mahesh Dani", job: "Business Owner" },
+    { img: Person3, name: "Priya Jain", job: "Photographer" },
+    { img: Person4, name: "Meggi Disuja", job: "Car Detailist" },
+    { img: Person5, name: "Chank ", job: "Mechanic" },
+    { img: Person6, name: "Jain Fransis", job: "Menager" },
   ];
   return (
     <>
@@ -43,7 +43,7 @@ function Team() {
               <h2>Book a car by getting in touch with us</h2>
               <span>
                 <IconPhone width={40} height={40} />
-                <h3>(123) 456-7869</h3>
+                <h3>(+91) 2513 2546 25</h3>
               </span>
             </div>
           </div>

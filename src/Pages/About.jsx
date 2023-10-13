@@ -21,13 +21,12 @@ function About() {
             />
             <div className="about-main__text">
               <h3>About Company</h3>
-              <h2>You start the engine and your adventure begins</h2>
+              <h2>we believe in turning every journey into an unforgettable </h2>
               <p>
-                Certain but she but shyness why cottage. Guy the put instrument
-                sir entreaties affronting. Pretended exquisite see cordially the
-                you. Weeks quiet do vexed or whose. Motionless if no to
-                affronting imprudence no precaution. My indulged as disposal
-                strongly attended.
+              Our mission is simple: to provide you with the keys to seamless, stress-free travel. 
+              Whether you're embarking on a family vacation, a business trip, 
+              or an adventurous road trip, we're dedicated to making sure you 
+              have the perfect vehicle for every occasion.
               </p>
               <div className="about-main__text__icons">
                 <div className="about-main__text__icons__box">
@@ -64,7 +63,7 @@ function About() {
             <h2>Book a car by getting in touch with us</h2>
             <span>
               <IconPhone width={40} height={40} />
-              <h3>(123) 456-7869</h3>
+              <h3>(+91) 2513 2546 25</h3>
             </span>
           </div>
         </div>

@@ -20,11 +20,10 @@ function PickCar() {
         <div className="container">
           <div className="pick-container">
             <div className="pick-container__title">
-              <h3>Vehicle Models</h3>
-              <h2>Our rental fleet</h2>
+              <h3>Cars We Have</h3>
+              <h2>Our Cars Collections</h2>
               <p>
-                Choose from a variety of our amazing vehicles to rent for your
-                next adventure or business trip
+               Brief overview of each vehicle category
               </p>
             </div>
             <div className="pick-container__car-content">

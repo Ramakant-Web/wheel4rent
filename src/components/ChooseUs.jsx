@@ -18,17 +18,18 @@ function ChooseUs() {
             <div className="text-container">
               <div className="text-container__left">
                 <h4>Why Choose Us</h4>
-                <h2>Best valued deals you will ever find</h2>
+                <h2>Wide Selection of Quality Vehicles</h2>
                 <p>
-                  Discover the best deals you'll ever find with our unbeatable
-                  offers. We're dedicated to providing you with the best value
-                  for your money, so you can enjoy top-quality services and
-                  products without breaking the bank. Our deals are designed to
-                  give you the ultimate renting experience, so don't miss out on
-                  your chance to save big.
+                We offer a diverse fleet of well-maintained vehicles,
+                ranging from economical options to premium models, 
+                ensuring there's a perfect ride for every occasion,
+                With multiple convenient pick-up and drop-off locations,
+                we make renting a car a hassle-free experience.
+                Whether you're at the airport or in the heart of the city, 
+                we're there for you.
                 </p>
                 <a href="#home">
-                  Find Details &nbsp;
+                  Know More &nbsp;
                   <IconChevronRight />
                 </a>
               </div>

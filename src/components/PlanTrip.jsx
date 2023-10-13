@@ -9,35 +9,34 @@ function PlanTrip() {
         <div className="container">
           <div className="plan-container">
             <div className="plan-container__title">
-              <h3>Plan your trip now</h3>
-              <h2>Quick & easy car rental</h2>
+              <h3>Plannig to go somewher</h3>
+              <h2>Try our easy car rental</h2>
             </div>
 
             <div className="plan-container__boxes">
               <div className="plan-container__boxes__box">
                 <img src={SelectCar} alt="icon_img" />
-                <h3>Select Car</h3>
+                <h3>Choose Car</h3>
                 <p>
-                  We offers a big range of vehicles for all your driving needs.
-                  We have the perfect car to meet your needs
+                  We have wide range of car collection,
+                  which surely give you enjoynment while trip
                 </p>
               </div>
 
               <div className="plan-container__boxes__box">
                 <img src={Contact} alt="icon_img" />
-                <h3>Contact Operator</h3>
+                <h3>Contact Our Team</h3>
                 <p>
-                  Our knowledgeable and friendly operators are always ready to
-                  help with any questions or concerns
+                  If you have any quetions our team members surely solve your questions
                 </p>
               </div>
 
               <div className="plan-container__boxes__box">
                 <img src={Drive} alt="icon_img" />
-                <h3>Let's Drive</h3>
+                <h3>Just Drive</h3>
                 <p>
-                  Whether you're hitting the open road, we've got you covered
-                  with our wide range of cars
+                  Go without any hegitetion we've got you covered
+                  with insurance
                 </p>
               </div>
             </div>

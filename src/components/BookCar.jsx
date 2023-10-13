@@ -12,7 +12,7 @@ import { IconCalendarEvent } from "@tabler/icons-react";
 function BookCar() {
   const [modal, setModal] = useState(false); //  class - active-modal
 
-  // booking car
+  // booking the car
   const [carType, setCarType] = useState("");
   const [pickUp, setPickUp] = useState("");
   const [dropOff, setDropOff] = useState("");
@@ -20,7 +20,7 @@ function BookCar() {
   const [dropTime, setDropTime] = useState("");
   const [carImg, setCarImg] = useState("");
 
-  // modal infos
+  // modal information
   const [name, setName] = useState("");
   const [lastName, setLastName] = useState("");
   const [phone, setPhone] = useState("");
@@ -165,7 +165,7 @@ function BookCar() {
         <div className="container">
           <div className="book-content">
             <div className="book-content__box">
-              <h2>Book a car</h2>
+              <h2>Rent a car</h2>
 
               <p className="error-message">
                 All fields required! <IconX width={20} height={20} />
@@ -179,8 +179,7 @@ function BookCar() {
               <form className="box-form">
                 <div className="box-form__car-type">
                   <label>
-                    <IconCar className="input-icon" /> &nbsp; Select Your Car
-                    Type <b>*</b>
+                    <IconCar className="input-icon" /> &nbsp; Choose the type of car  <b>*</b>
                   </label>
                   <select value={carType} onChange={handleCar}>
                     <option>Select your car type</option>
@@ -197,37 +196,46 @@ function BookCar() {
 
                 <div className="box-form__car-type">
                   <label>
-                    <IconMapPinFilled className="input-icon" /> &nbsp; Pick-up{" "}
+                    <IconMapPinFilled className="input-icon" /> &nbsp; Pick-up Location{" "}
                     <b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
-                    <option>Select pick up location</option>
-                    <option>Belgrade</option>
-                    <option>Novi Sad</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                  <option>Mumbai</option>
+                    <option>Pune</option>
+                    <option>Nagpur</option>
+                    <option>Delhi</option>
+                    <option>Indore</option>
+                    <option>Chennai</option>
+                    <option>Kolkata</option>
+                    <option>Noida</option>
+                    <option>Hydrerabad</option>
+                    <option>Bangalore</option>
                   </select>
                 </div>
 
                 <div className="box-form__car-type">
                   <label>
-                    <IconMapPinFilled className="input-icon" /> &nbsp; Drop-of{" "}
+                    <IconMapPinFilled className="input-icon" /> &nbsp; Drop-of Location{" "}
                     <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
                     <option>Select drop off location</option>
-                    <option>Novi Sad</option>
-                    <option>Belgrade</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>Mumbai</option>
+                    <option>Pune</option>
+                    <option>Nagpur</option>
+                    <option>Delhi</option>
+                    <option>Indore</option>
+                    <option>Chennai</option>
+                    <option>Kolkata</option>
+                    <option>Noida</option>
+                    <option>Hydrerabad</option>
+                    <option>Bangalore</option>
                   </select>
                 </div>
 
                 <div className="box-form__car-time">
                   <label htmlFor="picktime">
-                    <IconCalendarEvent className="input-icon" /> &nbsp; Pick-up{" "}
+                    <IconCalendarEvent className="input-icon" /> &nbsp; Pick-up Date{" "}
                     <b>*</b>
                   </label>
                   <input
@@ -240,7 +248,7 @@ function BookCar() {
 
                 <div className="box-form__car-time">
                   <label htmlFor="droptime">
-                    <IconCalendarEvent className="input-icon" /> &nbsp; Drop-of{" "}
+                    <IconCalendarEvent className="input-icon" /> &nbsp; Drop-of Date{" "}
                     <b>*</b>
                   </label>
                   <input
@@ -252,7 +260,7 @@ function BookCar() {
                 </div>
 
                 <button onClick={openModal} type="submit">
-                  Search
+                  Check Availability
                 </button>
               </form>
             </div>
@@ -265,18 +273,17 @@ function BookCar() {
       <div className={`booking-modal ${modal ? "active-modal" : ""}`}>
         {/* title */}
         <div className="booking-modal__title">
-          <h2>Complete Reservation</h2>
+          <h2>Car is Available do you want to reserve</h2>
           <IconX onClick={openModal} />
         </div>
         {/* message */}
         <div className="booking-modal__message">
           <h4>
-            <IconInfoCircleFilled /> Upon completing this reservation enquiry,
+            <IconInfoCircleFilled />  After completing this reservation enquiry,
             you will receive:
           </h4>
           <p>
-            Your rental voucher to produce on arrival at the rental desk and a
-            toll-free customer support number.
+            Your rental voucher by which you can aquire car and tollfree customer care number.
           </p>
         </div>
         {/* car info */}
@@ -438,7 +445,7 @@ function BookCar() {
 
               <span>
                 <label>
-                  Zip Code <b>*</b>
+                  Pin Code <b>*</b>
                 </label>
                 <input
                   value={zipcode}

@@ -10,7 +10,7 @@ function Testimonials() {
           <div className="testimonials-content">
             <div className="testimonials-content__title">
               <h4>Reviewed by People</h4>
-              <h2>Client's Testimonials</h2>
+              <h2>Customer Testimonials</h2>
               <p>
                 Discover the positive impact we've made on the our clients by
                 reading through their testimonials. Our clients have experienced
@@ -25,16 +25,17 @@ function Testimonials() {
                   <IconQuote width={60} height={60} />
                 </span>
                 <p>
-                  "We rented a car from this website and had an amazing
-                  experience! The booking was easy and the rental rates were
-                  very affordable. "
+                  ""Renting a car was an absolute breeze. 
+                  From the moment I visited their website to the moment I returned the vehicle, 
+                  everything was seamless and stress-free. The SUV we rented was spotless and well-maintained, 
+                  perfect for our family vacation. "
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img2} alt="user_img" />
                     <span>
-                      <h4>Parry Hotter</h4>
-                      <p>Belgrade</p>
+                      <h4>Rahul Dev</h4>
+                      <p>Mumbai</p>
                     </span>
                   </div>
                 </div>
@@ -45,15 +46,16 @@ function Testimonials() {
                   <IconQuote width={60} height={60} />
                 </span>
                 <p>
-                  "The car was in great condition and made our trip even better.
-                  Highly recommend for this car rental website!"
+                  "I highly recommend to anyone in need of a reliable and trustworthy car rental service. 
+                  They exceeded our expectations in every way possible, 
+                  and we'll definitely be choosing them for our future trips"
                 </p>
                 <div className="all-testimonials__box__name">
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img3} alt="user_img" />
                     <span>
-                      <h4>Ron Rizzly</h4>
-                      <p>Novi Sad</p>
+                      <h4>Amit Tyagi</h4>
+                      <p>Bengaluru</p>
                     </span>
                   </div>
                 </div>
